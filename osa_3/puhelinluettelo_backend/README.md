@@ -4,7 +4,7 @@ Full Stack Open ‑kurssin osan 3 puhelinluettelosovelluksen backend.
 
 ## Tuotantoversio
 
-Sovellus on saatavilla osoitteessa: **https://TODO-lisaa-deployattu-url-tahan**
+Sovellus on saatavilla osoitteessa: https://full-stack-4m99.onrender.com
 
 ## Käytetyt teknologiat
 
