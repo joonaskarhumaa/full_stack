@@ -67,6 +67,10 @@ const App = () => {
             setNewName('')
             setNewNumber('')
           })
+          .catch(error => {
+            const msg = error.response?.data?.error || `Information on ${newName} has already been removed from server`
+            showNotification(msg, 'error')
+          })
       }
       return
     }
@@ -78,6 +82,10 @@ const App = () => {
         showNotification(`Added ${newName}`)
         setNewName('')
         setNewNumber('')
+      })
+      .catch(error => {
+        const msg = error.response?.data?.error || 'Failed to add person'
+        showNotification(msg, 'error')
       })
   }
 
