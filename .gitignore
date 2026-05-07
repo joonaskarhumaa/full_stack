@@ -1,4 +1,5 @@
 node_modules
 dist
+!osa_3/puhelinluettelo_backend/dist
 .env
 db.json
