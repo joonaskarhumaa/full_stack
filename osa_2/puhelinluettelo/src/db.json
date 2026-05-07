@@ -1,0 +1,35 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-2378312",
+      "id": "1"
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": "2"
+    },
+    {
+      "name": "Olli Opiskelija",
+      "number": "45-21-4628390",
+      "id": "5"
+    },
+    {
+      "name": "Maija Meikälainen",
+      "number": "050-12345674",
+      "id": "DqJum3VaBt0"
+    },
+    {
+      "name": "123",
+      "number": "123",
+      "id": "Q8iydvIQCK0"
+    },
+    {
+      "name": "213",
+      "number": "213",
+      "id": "_Qgx7fgngAA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
